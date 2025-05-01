@@ -19,7 +19,7 @@ body{
     
     margin: auto;
     padding:10px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: poppins;
     background-color: #EEEEEE;
     border-radius: 20px;
@@ -29,8 +29,6 @@ body{
 .one{
     margin: auto;
     padding:10px;
-    font-size: 20px;
-    font-family: poppins;
     background-color: #AAC4FF;
     border-radius: 20px;
     border: 1px solid #393E46;
@@ -41,7 +39,7 @@ img{
     width: 200px;
     border-radius: 20px;
     display: block;
-    margin-left: 15px;
+    margin-left: auto;
     margin-right: auto;
     border: 1px solid #393E46;
 }
