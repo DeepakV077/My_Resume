@@ -1,14 +1,14 @@
 body{
     background-color:#D2DAFF;
     font-family: poppins;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 #title{
     text-align: center;
     margin: auto;
     padding:20px;
-    font-size: 30px;
+    font-size: 10px;
     font-family: poppins;
     background-color: #B1B2FF;
     border-radius: 20px;
@@ -19,7 +19,7 @@ body{
     
     margin: auto;
     padding:10px;
-    font-size: 30px;
+    font-size: 10px;
     font-family: poppins;
     background-color: #EEEEEE;
     border-radius: 20px;
@@ -29,7 +29,7 @@ body{
 .one{
     margin: auto;
     padding:10px;
-    font-size: 20px;
+    font-size: 10px;
     font-family: poppins;
     background-color: #AAC4FF;
     border-radius: 20px;
@@ -50,7 +50,7 @@ img{
     border: 1px solid #393E46;
     margin-block: 10px;
     padding: 0px;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 footer{
