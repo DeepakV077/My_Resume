@@ -1,13 +1,14 @@
 body{
     background-color:#D2DAFF;
     font-family: poppins;
+    font-size: 20px;
 }
 
 #title{
     text-align: center;
     margin: auto;
     padding:20px;
-    font-size: 40px;
+    font-size: 30px;
     font-family: poppins;
     background-color: #B1B2FF;
     border-radius: 20px;
@@ -48,7 +49,8 @@ img{
     border-radius: 20px;
     border: 1px solid #393E46;
     margin-block: 10px;
-    padding: 40px;
+    padding: 15px;
+    font-size: 20px;
 }
 
 footer{
