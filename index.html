@@ -4,16 +4,26 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <title>My Resume</title>
     </head>
     <body>
-        <h1>Deepak's Portfolio</h1>
-        <hr>
-        <h2>🌟Summary</h2>
-        <p>My name is Deepak V. Passionate and motivated Computer Engineering student driven by innovation, problem-solving, and continuous self-evolution. Currently pursuing a B.E. in Computer Science and Engineering at Sri Sairam Engineering College. Inspired by the mantra "Arise", I aim to bridge real-world problems with tech-powered solutions, with a growing portfolio in web development, IoT, and AI-assisted systems. Seeking opportunities to contribute meaningfully to impactful projects while constantly leveling up my skill set.</p>
-        <hr>
+        <h1 id="title">Deepak's Portfolio</h1>
+        <br>
+        <div class="one">
+        <h2 class="Head">🌟Summary</h2>
+        <p>My name is <strong>Deepak V</strong>. Passionate and motivated Computer Engineering student driven by innovation, problem-solving, and continuous self-evolution. Currently pursuing a B.E. in Computer Science and Engineering at Sri Sairam Engineering College. Inspired by the mantra "Arise", I aim to bridge real-world problems with tech-powered solutions, with a growing portfolio in web development, IoT, and AI-assisted systems. Seeking opportunities to contribute meaningfully to impactful projects while constantly leveling up my skill set.</p>
+       
+    </div>
+    <br>
         <img src="./Images/linkedIn_Profile.jpg" alt="Deepak" width="400" height="400">
-        <h2>🎓Education</h2>
+        <br>
+        <div class="one">
+        <h2 class="Head">🎓Education</h2>
+        <div class="Edu">
         <h3><strong>Sri Sairam Engineering College</strong></h3>
         <p>B.E. in Computer Science and Engineering</p>
         <p>2024 - Present</p>
@@ -31,6 +41,8 @@
             </ol>
         </li>
         </ul>
+        </div>
+        <div class="Edu">
         <h3><strong>Buvana Krishnan Matriculation Higher Secondary School</strong></h3>
         <h4>HSC/12th Grade</h4>
         <ul>
@@ -38,7 +50,9 @@
             <li>Percentage: 91.67%</li>
             <li>Year: 2024</li>
         </ul>
-
+        </div>
+        <div class="Edu">
+        
         <h3><strong>Buvana Krishnan Matriculation Higher Secondary School</strong></h3>
         <h4>SSLC/10th Grade</h4>
         <ul>
@@ -46,9 +60,14 @@
             <li>Percentage: 83.2%</li>
             <li>Year: 2022</li>
         </ul>
-       
-        <hr>
-        <h2>💼 Work Experience</h2>
+        </div> 
+    </div>
+        
+        <br>    
+    <div class="one">
+
+        <h2 class="Head">💼 Work Experience</h2>
+        <div class="Edu">
         <ul>
             <li><h3>Hackathon, IIt Jammu and Kashmir</h3>
                  <p>PrediCare – Real-time AI-Powered Medical Research Assistant
@@ -62,50 +81,64 @@
                             </ul>
                         </li>
         </ul>
+        </div>
+
+    </div>
         <hr>
-        <h2>🛠️ Skills</h2>
-        <ol>
-            <li>Languages
+    <div class="one">
+        <h2 class="Head">🛠️ Skills</h2>
+        <div class="Edu">
+            <h4>Languages</h4>
                 <ul>
                     <li>Python</li>
                     <li>C</li>
                     <li>Javascript</li>
                 </ul>
-            </li>
-            <li>Web Dev
+            
+        </div>
+        <div class="Edu">
+            
+            <h4>Web Dev</h4>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>React</li>
                     <li>Figma(UI/UX Design)</li>
                 </ul>
-            </li>
-            <li>Tools
+      
+            </div>
+            <div class="Edu">
+            <h4>Tools</h4>
                 <ul>
                     <li>VS Code</li>
                     <li>Git</li>
                     <li>Arduino IDE</li>
                     <li>Skillrack</li>
                 </ul>
-            </li>
-            <li>Soft Skills
+           </div>
+           <div class="Edu">
+            <h4>Soft Skills</h4>
                 <ul>
                     <li>Leadership</li>
                     <li>communciation</li>
                     <li>Time Management</li>
                     <li>Public Speaking(Improving)</li>
                 </ul>
-            </li>
-            <li>Other
+           </div>
+           <div class="Edu">
+            <h4>Other</h4>
+           
                 <ul>
                     <li>IoT Prototyping</li>
                     <li>Hackathon participation</li>
                     <li>Project Management</li>
                 </ul>
-            </li>
-        </ol>
-        <hr>
-        <h2>🏅 Awards, Certifications & Achievements</h2>
+           </div>
+        </div>
+        <br>
+        <div class="one">
+        <h2 class="Head">🏅 Awards, Certifications & Achievements</h2>
+        <div class="Edu">
         <ul>
             <li>🏆 700+ Skillrack Problems Solved – Actively honing coding logic and problem-solving</li>
             <li>🥇 2-Day LSDG Immersion Program – Localization of Sustainable Development Goals</li>
@@ -122,11 +155,18 @@
             </li>
 
         </ul>
-        <hr>
+        </div>
+        </div>
+        <br>
+        <div class="one">
         <p>Click the link below to know more about my hobbies</p>
-        <a href="./hobbies.html">Hobbies</a>
-        <hr>
+        <button><a href="./hobbies.html" >Hobbies</a></button>
+        </div>
+        <br>
+        <div class="one">
         <p>Click the link below to know more about my contact details</p>
-        <a href="./contact.html">Contact</a>
+        <button><a href="./contact.html">Contact</a></button>
+        </div>
+
     </body>
 </html>
